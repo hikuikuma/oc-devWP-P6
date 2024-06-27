@@ -6,22 +6,20 @@
 
 ## Plugins utilisés
 * Elementor
-  - Constructeur de pages
+  - *Constructeur de pages*
 * Royal Elementor Addons
-  - Ajouts de fonctionnalités pour Elementor
+  - *Ajouts de fonctionnalités pour Elementor*
 * Contact Form 7
-  - Gestion du système des formulaires
+  - *Gestion du système des formulaires*
 * All-in-One WP Migration
-  - Sauvegarde du site
+  - *Sauvegarde du site*
 * Ocean Extra
-  - Plugin permettant une meilleure gestion du thème OceanWP
+  - *Plugin permettant une meilleure gestion du thème OceanWP*
 
 ## Thème utilisé
-*Le thème en gras est le thème actif*
-* OceanWP
-* **Thème enfant d'OceanWP**
+OceanWP via un thème enfant auto-généré et personnalisé
 
 ## Aide mémoire
 * Fichiers CSS customs
-  - Formulaire de commande : /wp-content/uploads/elementor/css/post-15.css
-  - Général + thème : /wp-content/uploads/oceanwp/custom-style.css
+  - Formulaire de commande `/wp-content/uploads/elementor/css/post-15.css`
+  - Général + thème `/wp-content/uploads/oceanwp/custom-style.css`
