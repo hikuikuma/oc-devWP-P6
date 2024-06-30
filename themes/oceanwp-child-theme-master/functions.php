@@ -33,7 +33,7 @@ function oceanwp_child_enqueue_parent_style() {
 add_action( 'wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style' );
 add_filter( 'wp_nav_menu_items', 'add_admin_item_to_nav_menu', 10, 2);
 function add_admin_item_to_nav_menu($items, $args) {
-	if (is_user_logged_in() && $args->menu_id == "menu-1-c3eff53") {
+	if (is_user_logged_in() && $args->menu_id == "menu-1-c3eff53" || $args->menu_id == "mobile-menu-2-c3eff53") {
 		$items .= '<li class="menu-item"><a class="wpr-menu-item wpr-pointer-item" href="'. get_permalink( get_option('siteurl')).'/wp-admin">Admin</a></li>';
 	}
 	return $items;
